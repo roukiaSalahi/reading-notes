@@ -48,7 +48,8 @@ is like a little window so you can see another page
 ```javascript
 
 <iframe
-width="450" height="350"src="">
+width="450"
+height="350"src="">
 </iframe>
 
 ```
@@ -58,7 +59,7 @@ width="450" height="350"src="">
 The `<meta>` element lives inside the`<head> `element so its not visible to users but it contains information about that web page such as the decribtion of the page, autor name, keywords, expires date ,and many features.
 
 
-## How to Comment in html
+## How to Comment in html ?
 
 comments are not visible to user's browser its only visible in the source code. We use comments to make our code much easier to understand.
 
@@ -67,9 +68,9 @@ comments are not visible to user's browser its only visible in the source code. 
 
 ```
 
-## HTML5 LAYOUT
+## HTML5 LAYOUT :
 
-Traditional HTML layouts web page authors used `<div>` elements to group together related elements on the page and used class or id attributes to indicate the role of the `<div>` element in the structure of the page, however the new html layout elements allow you to divide up the parts of page with elements that name indicate the kind of content you will find in them  in order to help describe the structure of the page and make the code easier to follow.
+traditional HTML layouts web page authors used `<div>` elements to group together related elements on the page and used class or id attributes to indicate the role of the `<div>` element in the structure of the page, however the new html layout elements allow you to divide up the parts of page with elements that name indicate the kind of content you will find in them  in order to help describe the structure of the page and make the code easier to follow.
 
 html5 layout elements    |  purpose/content
 ---------------|------------------------------------------------------------------------------
@@ -110,16 +111,15 @@ script is a series of instructions that a computer can follow to achive goal. sc
 
 computers create models of the world using data, so the browser recive a page as html code then create a model of the page and store it in the memory after that it use a rendering engine to show the page on screen.
 
-the model use objects to represent physical things, objects can have properties that tell us about the object, methods that perform tasks using the properties of that object, events which are triggered when a user interact with computer, so they all fit togather events can trigger methods and methods can retrieve or update an object properties.
+the model use objects to represent physical things, objects can have properties that tell us about the object, methods that perform tasks using the properties of that object, events which are triggered when a user interact with computer, so they all fit togather, events can trigger methods and methods can retrieve or update an object properties.
 
 *example :*
 
-document object : represent the whole document 
- propereties : such as the title of the page.
+- document object : represent the whole document 
 
- method : is like getting information from spesific element or adding new content.
-
- event : happen when the user clicking or tapping on an element.
+  - propereties : such as the title of the page.
+  - method : is like getting information from spesific element or adding new content.
+  - event : happen when the user clicking or tapping on an element.
 
 
 

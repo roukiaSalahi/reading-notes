@@ -115,7 +115,7 @@ the model use objects to represent physical things, objects can have properties 
 
 *example :*
 
-- document object : represent the whole document 
+ document object : represent the whole document 
 
   - propereties : such as the title of the page.
   - method : is like getting information from spesific element or adding new content.

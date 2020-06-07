@@ -182,4 +182,3 @@ conditional statement is based on a concept of if/then/else; if a condition is m
 
 
 
-### How to assign variables ?

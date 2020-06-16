@@ -92,12 +92,65 @@ property | purpose
 ` border-bottom `     |  make the bottom border of the button slightly thicker,
 `cursor`              | allows you to control the type of mouse cursor that should be displayed to users.
 
+# JavaScript
 
+## Events
 
+EVENT   |  DESCRIPTION 
+-------------|---------------------------------------------------------------------
+load         | Web page has finished loading 
+unload       | Web page is unloading (usually because a new page was requested) 
+error        | Browser encounters a JavaScript error or an asset doesn't exist 
+resize       | Browser window has been resized 
+scroll       | User has scrolled up or down the page 
+keydown      | User first presses a key (repeats while key is depressed) 
+keyup        | User releases a key 
+keypress     | Character is being inserted (repeats while key is depressed) 
+click        | User presses and releases a button over the same element 
+dbl click    | User presses and releases a button twice over the same element 
+moused own   | User presses a mouse button while over an element 
+mouseup      | User releases a mouse button while over an element 
+mousemove    | User moves the mouse (not on a touchscreen) 
+mouseover    | User moves the mouse over an element (not on a touchscreen) 
+mouseout     | User moves the mouse off an element (not on a touchscreen) 
 
+### TRADITIONAL DOM EVENT HANDLERS 
 
+All modern browsers understand this way of creating an event handler, but you can only attach one function to each event handler
 
+```javascript
 
+function checkUsername() { 
+ var elMsg = document.getEl ementByld('feedback'); 
+ if (this.value.length< 5) { 
+    elMsg.textContent 'Username must be 5 characters or more ';
+  }else {
+    elMsg.textContent = " ";
+  }
+}
+var elUsername = document.getElementByld('username'); 
+elUsername.onblur = checkUsername; 
+
+```
+
+### EVENT LISTENERS 
+
+Event listeners are a more recent approach to handling events. They can deal with more than one function at a time but they are not supported in older browsers
+
+```javascript
+
+function checkUsername() { 
+ var elMsg = document.getEl ementByld('feedback'); 
+ if (this.value.length< 5) { 
+    elMsg.textContent 'Username must be 5 characters or more ';
+  }else {
+    elMsg.textContent = " ";
+  }
+}
+var elUsername = document.getElementByld('username'); 
+elUsername.addEventlistener('blur' , checkUsername, false) ; 
+
+```
 
 
 
